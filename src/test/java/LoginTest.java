@@ -23,7 +23,7 @@ public class LoginTest {
         WebElement userName = driver.findElement(By.name("userName"));
         userName.sendKeys("rajeevkk2001");
         WebElement psw = driver.findElement(By.name("password"));
-        psw.sendKeys("Beauty123#");
+        psw.sendKeys("B");
         WebElement loginBtn = driver.findElement(By.id("loginButton"));
         loginBtn.click();
         wait(2000);
