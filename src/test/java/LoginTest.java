@@ -21,9 +21,9 @@ public class LoginTest {
         driver.get("https://csc.ntta.org/olcsc/");
         System.out.println("Selenium Webdriver Script in Chrome browser | Software Testing Material");
         WebElement userName = driver.findElement(By.name("userName"));
-        userName.sendKeys("rajeevkk2001");
+        userName.sendKeys("username");
         WebElement psw = driver.findElement(By.name("password"));
-        psw.sendKeys("B");
+        psw.sendKeys("PSW");
         WebElement loginBtn = driver.findElement(By.id("loginButton"));
         loginBtn.click();
         wait(2000);
@@ -34,9 +34,9 @@ public class LoginTest {
 
         System.out.println("Account Details");
         WebElement userName = driver.findElement(By.name("userName"));
-        userName.sendKeys("rajeevkk2001");
+        userName.sendKeys("usernmae");
         WebElement psw = driver.findElement(By.name("password"));
-        psw.sendKeys("Beauty123#");
+        psw.sendKeys("PSW");
         WebElement loginBtn = driver.findElement(By.id("loginButton"));
         loginBtn.click();
         wait(2000);
